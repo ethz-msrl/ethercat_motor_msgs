@@ -6,20 +6,14 @@ uint8 version
 uint16 timestamp
 
 # Actual measurement
-int32 targetPosition
-uint32 profileVelocity 
-uint32 endVelocity  
-uint32 profileAcceleration  
-uint32 profileDeceleration  
-uint32 quickStopDeceleration  
-int16 motionProfileType  
-uint32 maxAcceleration  
-uint32 maxDeceleration  
-uint32 profileJerkBeginAccelerationJerk  
-uint32 profileJerkBeginDecelerationJerk  
-uint32 profileJerkEndAccelerationJerk  
-uint32 profileJerkEndDecelerationJerk  
-bool immediateExecutionEn
-bool relativeTargetPositionModeEn
-bool changeOnSetPointEn
-bool haltMotor
+int32 actualPosition
+int32 digitalInputs
+int32 actualVelocity
+int32 demandVelocity
+uint16 statusword
+int16 analogInput
+int16 actualCurrent
+uint32 busVoltage
+int16 actualTorque
+int16 demandTorque
+uint8 polarity
