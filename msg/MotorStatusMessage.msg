@@ -10,6 +10,7 @@ int32 actualPosition
 int32 digitalInputs
 int32 actualVelocity
 int32 demandVelocity
+int32 actualFollowingError
 uint16 statusword
 int16 analogInput
 int16 actualCurrent
