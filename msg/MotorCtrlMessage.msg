@@ -14,4 +14,4 @@ int32 velocityOffset
 uint32 profileAcceleration
 uint32 profileDeceleration
 uint16 motionProfileType
-uint8 operationMode
+int8 operationMode
