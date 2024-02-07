@@ -17,4 +17,6 @@ int16 actualCurrent
 uint32 busVoltage
 int16 actualTorque
 int16 demandTorque
+uint16 errorCode # 0x0000 if no error
+uint8 errorRegister # 0x00 if no error
 uint8 polarity
